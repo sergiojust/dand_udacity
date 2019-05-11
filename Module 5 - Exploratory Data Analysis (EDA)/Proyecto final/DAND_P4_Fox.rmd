@@ -1,0 +1,1363 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-ISsGppDAOaepQ4upEA9mm4sMLKs3V+WJ5yaoGgHBrY13vkDtM37b0Y8Uej1pifaUkAcHJ9kkdxNf48eHtV595g==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-1a4dd44c32a7f3b22f5ee95cb87b4646.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-AZiPkC2eIY8yQTwd2GHdf+vGVxhQLPp8zN5HD/+XIxTljkmK532EPMi5J59/RkU8Tx2z7Zhrrp22Ynk0bifnPQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-ef9e6df593c3136722bd837c0437786d.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-+G4sIYlb3eQxH1jJoAG/Ed2g3dlNc6jvO89e2RBT0+oVtPJQP4AINvlrwG4w48vGz0HVM7frVoaV1NLEfb6/1A==" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-b4158a9f22ebd9e592779d889c0f9aaf.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Udacity-DAND-Project-4/DAND_P4_Fox.rmd at master · sfox1975/Udacity-DAND-Project-4 · GitHub</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/18422749?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="sfox1975/Udacity-DAND-Project-4" /><meta property="og:url" content="https://github.com/sfox1975/Udacity-DAND-Project-4" /><meta property="og:description" content="Udacity-DAND-Project-4 - Exploratory Data Analysis on White Wine Quality Using r" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E0AA:7D12:427536C:7CB2D46:5AEEE4EF" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E0AA:7D12:427536C:7CB2D46:5AEEE4EF" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NTkxNGQxMjJmNjI2M2RhNDdlM2FkMWM0YzY5NTVhYzE5MGNhMzJkMDI0N2E1Y2E1OTdhZmVjYmRmNmQxYWNkMHx7InJlbW90ZV9hZGRyZXNzIjoiODguMTcuMjQzLjIyIiwicmVxdWVzdF9pZCI6IkUwQUE6N0QxMjo0Mjc1MzZDOjdDQjJENDY6NUFFRUU0RUYiLCJ0aW1lc3RhbXAiOjE1MjU2MDU2NTIsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_FREE_APPS,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="a9e3b4eb9dbae445868fb2859bc1de29cf31404e">
+
+  <meta http-equiv="x-pjax-version" content="0b936d7bdd1cc0abb9327d66d996e1e8">
+  
+
+      <link href="https://github.com/sfox1975/Udacity-DAND-Project-4/commits/master.atom" rel="alternate" title="Recent Commits to Udacity-DAND-Project-4:master" type="application/atom+xml">
+
+  <meta name="description" content="Udacity-DAND-Project-4 - Exploratory Data Analysis on White Wine Quality Using r">
+  <meta name="go-import" content="github.com/sfox1975/Udacity-DAND-Project-4 git https://github.com/sfox1975/Udacity-DAND-Project-4.git">
+
+  <meta name="octolytics-dimension-user_id" content="18422749" /><meta name="octolytics-dimension-user_login" content="sfox1975" /><meta name="octolytics-dimension-repository_id" content="78041169" /><meta name="octolytics-dimension-repository_nwo" content="sfox1975/Udacity-DAND-Project-4" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="78041169" /><meta name="octolytics-dimension-repository_network_root_nwo" content="sfox1975/Udacity-DAND-Project-4" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/sfox1975/Udacity-DAND-Project-4/blob/master/DAND_P4_Fox.rmd" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="78041169" data-scoped-search-url="/sfox1975/Udacity-DAND-Project-4/search" data-unscoped-search-url="/search" action="/sfox1975/Udacity-DAND-Project-4/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/sfox1975/Udacity-DAND-Project-4/blob/master/DAND_P4_Fox.rmd">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fsfox1975%2FUdacity-DAND-Project-4%2Fblob%2Fmaster%2FDAND_P4_Fox.rmd" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fsfox1975%2FUdacity-DAND-Project-4"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/sfox1975/Udacity-DAND-Project-4/watchers"
+     aria-label="1 user is watching this repository">
+    1
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fsfox1975%2FUdacity-DAND-Project-4"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/sfox1975/Udacity-DAND-Project-4/stargazers"
+      aria-label="0 users starred this repository">
+      0
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fsfox1975%2FUdacity-DAND-Project-4"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/sfox1975/Udacity-DAND-Project-4/network" class="social-count"
+       aria-label="1 user forked this repository">
+      1
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/sfox1975">sfox1975</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/sfox1975/Udacity-DAND-Project-4">Udacity-DAND-Project-4</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /sfox1975/Udacity-DAND-Project-4" href="/sfox1975/Udacity-DAND-Project-4">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /sfox1975/Udacity-DAND-Project-4/issues" href="/sfox1975/Udacity-DAND-Project-4/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /sfox1975/Udacity-DAND-Project-4/pulls" href="/sfox1975/Udacity-DAND-Project-4/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /sfox1975/Udacity-DAND-Project-4/projects" href="/sfox1975/Udacity-DAND-Project-4/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /sfox1975/Udacity-DAND-Project-4/pulse" href="/sfox1975/Udacity-DAND-Project-4/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/sfox1975/Udacity-DAND-Project-4/blob/806b7e575b8e4231cf3b240dad62fd93879c5f2a/DAND_P4_Fox.rmd">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:a253915839d235becebda7cd80329da9 -->
+
+  <div class="file-navigation">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/sfox1975/Udacity-DAND-Project-4/blob/master/DAND_P4_Fox.rmd"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/sfox1975/Udacity-DAND-Project-4/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+        Copy path
+      </clipboard-copy>
+    </div>
+    <div id="blob-path" class="breadcrumb">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/sfox1975/Udacity-DAND-Project-4"><span>Udacity-DAND-Project-4</span></a></span></span><span class="separator">/</span><strong class="final-path">DAND_P4_Fox.rmd</strong>
+    </div>
+  </div>
+
+
+  <include-fragment src="/sfox1975/Udacity-DAND-Project-4/contributors/master/DAND_P4_Fox.rmd" class="commit-tease">
+    <div>
+      Fetching contributors&hellip;
+    </div>
+
+    <div class="commit-tease-contributors">
+      <img alt="" class="loader-loading float-left" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment>
+
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/sfox1975/Udacity-DAND-Project-4/raw/master/DAND_P4_Fox.rmd">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/sfox1975/Udacity-DAND-Project-4/blame/master/DAND_P4_Fox.rmd">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/sfox1975/Udacity-DAND-Project-4/commits/master/DAND_P4_Fox.rmd">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="https://desktop.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+        </a>
+
+        <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+        </button>
+        <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+        </button>
+  </div>
+
+  <div class="file-info">
+      1016 lines (668 sloc)
+      <span class="file-info-divider"></span>
+    49.7 KB
+  </div>
+</div>
+
+    
+  <div id="readme" class="readme blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-white-wine-quality---exploratory-data-analysis" class="anchor" aria-hidden="true" href="#white-wine-quality---exploratory-data-analysis"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>White Wine Quality - Exploratory Data Analysis</h1>
+<h3><a id="user-content-by-stephen-fox" class="anchor" aria-hidden="true" href="#by-stephen-fox"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>By Stephen Fox</h3>
+<h3><a id="user-content-completed-as-project-4-of-udacity-data-analyst-nanodegree" class="anchor" aria-hidden="true" href="#completed-as-project-4-of-udacity-data-analyst-nanodegree"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Completed as Project 4 of Udacity Data Analyst Nanodegree</h3>
+<hr>
+<h2><a id="user-content-project-overview" class="anchor" aria-hidden="true" href="#project-overview"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project Overview</h2>
+<p>The production and sale of wine is big business. In the USA alone, retail sales of wine reached nearly $56 billion in 2015, which equates to approximately 2.8 gallons consumed per resident per year (<a href="https://www.statista.com/topics/1709/alcoholic-beverages/" rel="nofollow">https://www.statista.com/topics/1709/alcoholic-beverages/</a>). An important metric in a consumer's decision about whether to buy a given bottle of wine is the 'quality' of that bottle. Quality is often summarized for the consumer as a wine score provided by an expert. The goal of this exploratory data analysis (EDA) is to determine whether any particular chemical properties of wine are good predictors of quality. The dataset used covers white wines from Portugal, as described in the following article:</p>
+<p>P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
+Modeling wine preferences by data mining from physicochemical properties.
+In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.</p>
+<p>For each wine, an expert-derived quality score on a scale of 0 (very bad) to 10 (very excellent) was provided. In addition to the quality score, the dataset contains a measurement for 11 chemical properties of each wine, as will be described later.</p>
+<pre lang="{r"><code>
+# Load all of the packages that I ended up using in my analysis
+
+# Notice that the parameter "echo" was set to FALSE for this code chunk.
+# This prevents the code from displaying in the knitted HTML output.
+
+library(ggplot2)
+library(GGally)
+library(gridExtra)
+library(grid)
+
+library(foreign)
+library(MASS)
+library(Hmisc)
+library(reshape2)
+
+</code></pre>
+<hr>
+<h2><a id="user-content-dataset-overiew" class="anchor" aria-hidden="true" href="#dataset-overiew"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dataset Overiew</h2>
+<p>The white wine dataset was downloaded from the following site:<br>
+<a href="https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityWhites.csv" rel="nofollow">https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityWhites.csv</a>)</p>
+<p>The file was found to contain the following dataframe:</p>
+<pre lang="{r"><code>
+# Load and view the variables in data
+data &lt;- read.csv('wineQualityWhites.csv')
+str(data)
+
+</code></pre>
+<p>There are 4,898 observations and each observation has 12 variables of interest (X is simply a sequential count for each observation, from 1 to 4,898, and will be dropped from the dataset). There are 11 chemical properties (e.g fixed acidity, volatile acidity etc.) and 1 measure of quality. The main feature in the dataset is 'quality', since this is the ultimate measure of each wine and is the variable that one would like to predict.</p>
+<p>As seen from the table above, R has intrepreted 'quality' to be of type integer. I believe it is more appropriate to treat 'quality' as an 'ordinal' variable (i.e. a categorical variable for which the possible values are ordered) for portions of this analysis and hence I will create a new variable, called quality.cat, which transorms quality into an ordered categorical variable. The results of the transformation are as follows, confirming 'quality.cat' has been transformed into an ordered factor:</p>
+<pre lang="{r"><code>
+# Drop the X column from further consideration, since it is just a counter
+data &lt;- subset(data,select = -c(X))
+
+# Determine whether there are any 'NA' values in the dataset
+data &lt;- na.omit(data)
+# The resulting dataframe is same size (not shown), so there are no NA values
+
+# Now transform quality into an ordinal variable and confirm the transformation
+data$quality.cat &lt;- ordered(data$quality)
+str(data$quality.cat)
+
+</code></pre>
+<p>A statistical summary of the data is given below:</p>
+<pre lang="{r"><code>
+# View a summary of the Data
+summary(data)
+
+</code></pre>
+<p>It is interesting to note that none of the wines received either a perfect quality score (10), since the highest level for quality observed in the data is a 9 but none of the wines received a 'very poor' quality score (0) either, since the lowest level observed is a 3. It is also interesting to observe that there are very few samples for quality level 3 (only 20) or quality level 9 (only 5). This paucity of data at very low and very high quality scores might make it difficult to draw any statistically significant conclusions about the extremes of the quality scale.</p>
+<p>At a glance, it appears there is a fair amount of spread in all of the variables, with meaningful differences between the min, median and max values. I will quantify one element of this spread by calculating the max:median ratio for each variable (excluding 'quality.cat'):</p>
+<pre lang="{r"><code>
+# Create a function that calculates the maximum / median for any variable
+maxmedianratio = function(x)max(x)/median(x)
+
+# Apply the function to the dataset, minus quality.cat
+apply(subset(data,select = -c(quality.cat)),2,maxmedianratio)
+
+</code></pre>
+<p>There is a fair amount of variance within variables, with many exhibiting max:mean ratios in excess of 2 (which equates to 100% difference). Density has the lowest ratio, with the maximum only 4.5% higher than the median. It remains to be seen whether this seemingly large spread amongst most of the variables is helpful for predicting wine quality.</p>
+<p>Finally, I observe that one variable (citric.acid) has a minimum of zero. Is this a missing data point or a true measurement? I will keep this in mind, but will not do anything with this observation at the moment.</p>
+<hr>
+<h2><a id="user-content-univariate-plots-and-analysis-section" class="anchor" aria-hidden="true" href="#univariate-plots-and-analysis-section"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Univariate Plots and Analysis Section</h2>
+<p>A good way to get an initial feel for the distribution of the data is via histograms. Rather than simply output 12 histograms, I will group the 12 properties into 3 different categories, and look at each category in turn. Since pH is a measure of acidity, I will group pH together with the graphs showing the 3 acid levels (fixed.acidity, volatile.acidity, and citric.acid). Next, I will group together the 5 remaining concentration measurements (residual.sugar, chlorides,free.sulfur.dioxide, total.sulfur.dioxide, and sulphates). Finally, I will group together alcohol, density and quality.</p>
+<h3><a id="user-content-acidity-related-histograms" class="anchor" aria-hidden="true" href="#acidity-related-histograms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>"Acidity" Related Histograms:</h3>
+<pre lang="{r"><code>
+# Plot the 'acidity' related parameters as a group:
+
+p1 &lt;- ggplot(aes(fixed.acidity), data = data) + geom_histogram(bins = 30) 
+p2 &lt;- ggplot(aes(volatile.acidity), data = data) + geom_histogram(bins = 30) 
+p3 &lt;- ggplot(aes(citric.acid), data = data) + geom_histogram(bins = 30) 
+p4 &lt;- ggplot(aes(pH), data = data) + geom_histogram(bins = 30)
+
+grid.arrange(p1,p2,p3,p4,ncol=2)
+
+</code></pre>
+<p>These four parameters all look reasonably normally distributed. In all four cases, there is some positive skewing, as can be judged by the long extension on the right hand side of the graph, with very low 'count' values for the higher x-axis values. As I get deeper into the analysis, it might make sense to exclude the upper most quantile (e.g. 1%) of each of these parameters, to remove this skewing, which appears to impact only a small number of wines (as judged by the very small count values). In fact, since the name of the game here is exploration, lets take a look at what these graphs would look like if we exclude the top 1% quantile for each parameter and adjust the bin sizes a bit:</p>
+<pre lang="{r"><code>
+# Plot the 'acidity' again, but with the 99+% quantile excluded:
+
+p1 &lt;- ggplot(aes(fixed.acidity), data = subset(
+  data,data$fixed.acidity &lt; quantile(data$fixed.acidity,0.99))) +
+  geom_histogram(bins = 55)
+
+p2 &lt;- ggplot(aes(volatile.acidity), data = subset(
+  data,data$volatile.acidity &lt; quantile(data$volatile.acidity,0.99))) +
+  geom_histogram(bins = 55) 
+
+p3 &lt;- ggplot(aes(citric.acid), data = subset(
+  data,data$citric.acid &lt; quantile(data$citric.acid,0.99))) +
+  geom_histogram(bins = 70)
+
+p4 &lt;- ggplot(aes(pH), data = subset(
+  data,data$pH &lt; quantile(data$pH,0.99))) +
+  geom_histogram(bins = 30)
+
+grid.arrange(p1,p2,p3,p4,ncol=2)
+
+</code></pre>
+<p>Once the top 1% of each parameter is excluded, it is easier to see the shape of the bulk of the data. All four parameters appear to be approximately normally distributed. There are two interesting 'spikes' in the citric acid profile, one near the median and a second smaller one near a value of 0.5. This suggests there might be something about the wine production process that generates an unusual citric acid profile.</p>
+<h3><a id="user-content-other-concentration-related-histograms" class="anchor" aria-hidden="true" href="#other-concentration-related-histograms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>"Other Concentration" Related Histograms:</h3>
+<pre lang="{r"><code>
+# Plot the 'other concentration' related parameters as a group:
+
+p5 &lt;- ggplot(aes(residual.sugar), data = data) + geom_histogram(bins = 30)
+
+p6 &lt;- ggplot(aes(chlorides), data = data) + geom_histogram(bins = 30) 
+
+p7 &lt;- ggplot(aes(free.sulfur.dioxide), data = data) + geom_histogram(bins = 30)
+
+p8 &lt;- ggplot(aes(total.sulfur.dioxide), data = data) +
+  geom_histogram(bins = 30)
+
+p9 &lt;- ggplot(aes(sulphates), data = data) + geom_histogram(bins = 30)
+
+grid.arrange(p5,p6,p7,p8,p9,ncol=2)
+
+</code></pre>
+<p>As was seen with the four "acid" related parameters, the five graphs above also exhibit positive skew. At a glance, it appears that all of these parameters are normally distributed, with the exception of residual sugar, which is perhaps log normal. Lets again take a closer look, by excluding the top 1% values for each parameter:</p>
+<pre lang="{r"><code>
+# Plot the 'other concentration' again, but with the 99+% quantile excluded:
+
+p5 &lt;- ggplot(aes(residual.sugar), data = subset(
+  data,data$residual.sugar &lt; quantile(data$residual.sugar,0.99))) +
+  geom_histogram(bins = 30)
+
+p6 &lt;- ggplot(aes(chlorides), data = subset(
+  data,data$chlorides &lt; quantile(data$chlorides,0.99))) +
+  geom_histogram(bins = 30) 
+
+p7 &lt;- ggplot(aes(free.sulfur.dioxide), data = subset(
+  data,data$free.sulfur.dioxide &lt; quantile(data$free.sulfur.dioxide,0.99))) +
+  geom_histogram(bins = 40) 
+
+p8 &lt;- ggplot(aes(total.sulfur.dioxide), data = subset(
+  data,data$total.sulfur.dioxide &lt; quantile(data$total.sulfur.dioxide,0.99))) +
+  geom_histogram(bins = 30)
+
+p9 &lt;- ggplot(aes(sulphates), data = subset(
+  data,data$sulphates &lt; quantile(data$sulphates,0.99))) +
+  geom_histogram(bins = 30)
+
+grid.arrange(p5,p6,p7,p8,p9,ncol=2)
+
+</code></pre>
+<p>Once the top 1% of each parameter is excluded, it is easier to see the shape of the bulk of the data. Most parameters appear to be approximately normally distributed here, with the exception of residual.sugar. Earlier, I surmised that 'log normal' might provide a better fit for residual.sugar. Lets test that idea now:</p>
+<pre lang="{r"><code>
+# Plot a log normal version of the residual.sugar distribution:
+
+ggplot(aes(residual.sugar), data = subset(
+  data,data$residual.sugar &lt; quantile(data$residual.sugar,0.99))) +
+  geom_histogram(bins = 40) +
+  scale_x_log10()
+
+</code></pre>
+<p>Based on the appearance of the transformed data, a bimodal distribution might be valid, with one population centered around low values (e.g. ~2) and another population centered around higher values (e.g. ~7). Lets take a closer look at residual.sugar by blowing up the graph and graphing it as two separate parts, one for values above 3 and one for values below 3:</p>
+<pre lang="{r"><code>
+# Plot the residual.sugar graph twice to examine its behavior in detail:
+# once for low values (&lt;3) and once for higher values (3-20)
+
+p10 &lt;- ggplot(aes(residual.sugar), data = subset(
+  data,data$residual.sugar &lt; quantile(
+    data$residual.sugar,0.99) &amp; data$residual.sugar &gt; 3.1)) +
+  geom_histogram(bins = 30) +
+  scale_x_log10(breaks=3:10)
+
+p11 &lt;- ggplot(aes(residual.sugar), data = subset(
+  data,data$residual.sugar &lt; quantile(
+    data$residual.sugar,0.99) &amp; data$residual.sugar &lt;= 3.1)) +
+  geom_histogram(bins = 20) +
+  scale_x_log10(breaks=1:3)
+  
+grid.arrange(p10,p11,ncol=1)
+
+</code></pre>
+<p>It is hard to draw any firm conclusions as to what is happening to explain the residual.sugar pattern, but the final graphs above suggest that a bimodal distribution might be a reasonable fit and that this could be a result of having two distinct methods for producing this wine type, one of which results in significantly lower residual sugar levels than the other.</p>
+<h3><a id="user-content-other-variables-histograms" class="anchor" aria-hidden="true" href="#other-variables-histograms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>"Other" Variables Histograms</h3>
+<p>(Note: a bar chart is used in the case of 'quality.cat', since it is categorical):</p>
+<pre lang="{r"><code>
+# Plot the remaining parameters as a group:
+
+p12 &lt;- ggplot(aes(density), data = data) + geom_histogram(bins = 30) 
+p13 &lt;- ggplot(aes(alcohol), data = data) + geom_histogram(bins = 30)
+p14 &lt;- ggplot(aes(quality), data = data) + geom_histogram(bins = 7)
+p15 &lt;- ggplot(aes(quality.cat), data = data) + geom_bar(stat="count") 
+
+grid.arrange(p12,p13,p14,p15,ncol=2)
+
+</code></pre>
+<p>The quality rating appears to be normally distributed, with the bulk of assessments in the middle bins. Density appears normal too, but with some positive skew. The alcohol content is an interesting one, possibly exhibiting bimodal or even trimodal behavior. Lets take a closer look at density and alcohol content, by replotting without the top 1% quantile:</p>
+<pre lang="{r"><code>
+# Plot density and alcohol again, excluding the top 99+% quantile for density:
+
+p12 &lt;- ggplot(aes(density), data = subset(
+  data,data$density &lt; quantile(data$density,0.99))) + geom_histogram(bins = 30)
+
+p13 &lt;- ggplot(aes(alcohol), data = data) + geom_histogram(bins = 20) 
+
+grid.arrange(p12,p13,ncol=1)
+
+</code></pre>
+<p>Density looks fairly normally distributed, whereas alcohol content might be bimodal or even trimodal, with 'low' (9% median), 'medium' (10.5% median) and 'high' (12% median) alcohol content populations.</p>
+<h3><a id="user-content-create-new-variables" class="anchor" aria-hidden="true" href="#create-new-variables"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create New Variables:</h3>
+<p>A beer related article I read inspired me to create a new variable for consideration in the analysis. The article can be found at:</p>
+<p><a href="http://beerandwinejournal.com/chloride-and-sulfate/" rel="nofollow">http://beerandwinejournal.com/chloride-and-sulfate/</a></p>
+<p>This article discusses that at least in the context of beer brewing, the chlorides to sulphates ratio might be a far more important measure of quality than the individual levels of either ion. Perhaps this ratio is important for wine too, so I will create a chlorides-to-sulphate ratio variable.</p>
+<p>In addition, I decided that the free-to-total sulfur dioxide ratio might be interesting (I have worked with pools, and in pool chemistry the free-to-total chlorine ratio is important for the quality of pool water, at least!). Along a similar vein, I think the ratio of volatile acidity to fixed acidity might be important, since there might be a chemical interplay between the two forms of acidity. Finally, I decided to also create a sugar-to-alcohol ratio, since both variables exhibited strange, bimodal like behavior and intuitively it seemed there might be some interplay here, with a sugary taste potentially masking the sometimes unpalatable taste of a higher alcohol content. The new ratios were created and their descriptive statistics and histograms (excluding top 1% quantile) are presented below:</p>
+<pre lang="{r"><code>
+# Create and add four new variables to the dataframe:
+
+data$chloride_to_sulphate &lt;-with(data,chlorides / sulphates)
+
+data$free_to_total_sulfure.dioxide &lt;-with(
+  data,free.sulfur.dioxide / total.sulfur.dioxide)
+
+data$volatile_to_fixed_acidity &lt;-with(data,volatile.acidity / fixed.acidity)
+
+data$sugar_to_alcohol &lt;-with(data,residual.sugar / alcohol)
+
+# Output summary data on the new variables:
+str(subset(data,select = c(chloride_to_sulphate,free_to_total_sulfure.dioxide,
+                           volatile_to_fixed_acidity,sugar_to_alcohol)))
+
+</code></pre>
+<pre lang="{r"><code>summary(subset(data,
+               select = c(chloride_to_sulphate,free_to_total_sulfure.dioxide,
+                           volatile_to_fixed_acidity,sugar_to_alcohol)))
+</code></pre>
+<pre lang="{r"><code>
+# Plot the new parameters as a group:
+
+p16 &lt;- ggplot(aes(chloride_to_sulphate), data = subset(
+  data,data$chloride_to_sulphate &lt; quantile(data$chloride_to_sulphate,0.99))) +
+  geom_histogram(bins = 30)
+
+p17 &lt;- ggplot(aes(free_to_total_sulfure.dioxide), data = subset(
+  data,data$free_to_total_sulfure.dioxide &lt; 
+    quantile(data$free_to_total_sulfure.dioxide,0.99))) +
+  geom_histogram(bins = 30)
+
+p18 &lt;- ggplot(aes(volatile_to_fixed_acidity), data = subset(
+  data,data$volatile_to_fixed_acidity &lt; 
+    quantile(data$volatile_to_fixed_acidity,0.99))) + 
+  geom_histogram(bins = 30)
+
+p19 &lt;- ggplot(aes(sugar_to_alcohol), data = subset(
+  data,data$sugar_to_alcohol &lt; quantile(data$sugar_to_alcohol,0.99))) +
+  geom_histogram(bins = 30)
+
+grid.arrange(p16,p17,p18,p19,ncol=2)
+</code></pre>
+<p>The free:total sulfur dioxide graph looks normally distributed. The chloride:sulphate, volatile:fixed acidity and sugar:alcohol graphs look positively skewed. In addition, the sugar:alcohol graph exhibts the same potentially bimodal behavior exhibited by the sugar and the alcohol graphs.</p>
+<p>I am now ready to look at the relationship between the various parameters.</p>
+<hr>
+<h2><a id="user-content-bivariate-plots-and-analysis-section" class="anchor" aria-hidden="true" href="#bivariate-plots-and-analysis-section"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bivariate Plots and Analysis Section</h2>
+<p>I would like to start the bivariate analysis by looking at the correlation coefficients between the variables, as given below:</p>
+<pre lang="{r"><code>
+# Determine correlation coefficients amongst the variables
+cor(subset(data,select = -c(quality.cat)))
+
+</code></pre>
+<p>Based on the correlations, it appears several chemicals negatively impact quality (correlations are shown in parentheses below):</p>
+<ul>
+<li>fixed.acidity (-0.11)</li>
+<li>volatile.acidity (-0.19)</li>
+<li>citric.acid (-0.01)</li>
+<li>residual.sugar (-0.10)</li>
+<li>chlorides (-0.21)</li>
+</ul>
+<p>Let's create a new variable, 'bad_solids', that adds them together (they all have units g per dm^3). The new variable has the following statistics and correlation coefficient with quality:</p>
+<pre lang="{r"><code>
+# Create and add a new variable, 'bad_solids', to the dataframe:
+
+data$bad_solids &lt;-with(data,fixed.acidity + volatile.acidity +
+                         citric.acid + residual.sugar + chlorides)
+
+# Output summary data on the new variable:
+str(data$bad_solids)
+summary(data$bad_solids)
+
+</code></pre>
+<p>Correlation with quality:</p>
+<pre lang="{r"><code>
+# Determine the correlation of bad_solids with quality
+cor(data$bad_solids,data$quality)
+
+</code></pre>
+<p>This new variable does not have a particularly strong correlation with quality. Its correlation coefficient (-0.12) is weaker than or basically equal to the individual correlations of many of its components. So this avenue looks like a dead end and I will not utilize this particular variable going forward.</p>
+<p>I would like to narrow down the analysis to those variables that have a modest correlation with quality (say a coefficient with an absolute value on the order of 0.15). The list is as follows, with the correlations versus quality shown in parentheses:</p>
+<ul>
+<li>volatile.acidity (-0.19)</li>
+<li>chlorides (-0.21)</li>
+<li>total.sulfur.dioxide (-0.17)</li>
+<li>density (-0.31)</li>
+<li>alcohol (0.44)</li>
+<li>chloride_to_sulphate (-0.19)</li>
+<li>free_to_total_sulfure.dioxide (0.20)</li>
+<li>sugar_to_alcohol (-0.13)</li>
+<li>volatile_to_fixed_acidity (-0.14)</li>
+</ul>
+<p>The list of variables being dropped (since their correlations with quality aren't high enough) are as follows:</p>
+<ul>
+<li>fixed.acidity</li>
+<li>citric.acid</li>
+<li>residual.sugar</li>
+<li>free.sulfur.dioxide</li>
+<li>pH</li>
+<li>sulphates</li>
+<li>bad_solids</li>
+</ul>
+<p>A scatterplot matrix can be a helpful early step in EDA. This matrix will allow us to get a sense as to whether there are trends between various variables in the dataset. First, I'll generate a scatterplot matrix using all the selected variables:</p>
+<pre lang="{r"><code>
+# Drop the variables identified previously:
+data_subset &lt;- subset(data,select= -c(fixed.acidity,citric.acid,residual.sugar,
+ free.sulfur.dioxide,pH,sulphates,bad_solids))
+
+# Generate the scatterplot:
+ggpairs(data_subset)
+
+</code></pre>
+<p>Although there appear to be some trends, the plot is too dense for any meaningful analysis, so I will split it up a bit. First, I will generate two scatterplot matrices that involve the primary feature of interest (quality):</p>
+<pre lang="{r"><code>
+# Plot subsets of the data, for ease of viewing:
+
+data_subset1 &lt;- subset(data_subset, 
+                       select = c(volatile.acidity,chlorides,
+                                  total.sulfur.dioxide,density,alcohol,
+                                  quality,quality.cat))
+ggpairs(data_subset1)
+
+data_subset2 &lt;- subset(data_subset, 
+                       select = c(quality,quality.cat,chloride_to_sulphate,
+                                  free_to_total_sulfure.dioxide,
+                                  volatile_to_fixed_acidity,sugar_to_alcohol))
+ggpairs(data_subset2)
+
+</code></pre>
+<p>The most interesting observations I gleam from the scatterplots are as follows:</p>
+<ul>
+<li>
+<p>The higher quality categories (8,9) exhibit a lot less variance for most of the variables (e.g. if you look at the volatile.acidity, chlorides, density, total.sulfur.dioxide parameters, you notice far less variance in these parameters when the quality is a category 8 or 9).</p>
+</li>
+<li>
+<p>There appears to be a meaningful, positive relationship between quality and alcohol percent that definitely warrants further investigation (0.44 correlation).</p>
+</li>
+<li>
+<p>There appears to be a possibly linear relationship between density and alcohol percent, with a relatively strong correlation (-0.78).</p>
+</li>
+<li>
+<p>Alcohol percent and total sulfur dioxide have an inverse correlation (-0.45) that might warrant further investigation.</p>
+</li>
+</ul>
+<p>Next, I will generate two more scatterplots that are focused on relationships between the non-quality variables:</p>
+<pre lang="{r"><code>
+str(data_subset)
+
+# Plot subsets of the data, for ease of viewing:
+
+data_subset3 &lt;- subset(data_subset, 
+                       select=c(volatile.acidity,chlorides,total.sulfur.dioxide,
+                                chloride_to_sulphate,free_to_total_sulfure.dioxide,
+                                volatile_to_fixed_acidity,sugar_to_alcohol))
+ggpairs(data_subset3)
+
+data_subset4 &lt;- subset(data_subset, 
+                       select=c(density,alcohol, chloride_to_sulphate,
+                                free_to_total_sulfure.dioxide,
+                                volatile_to_fixed_acidity,sugar_to_alcohol))
+ggpairs(data_subset4)
+
+</code></pre>
+<p>The most interesting observations I gleam from these additional scatterplots are as follows:</p>
+<ul>
+<li>
+<p>In these plots, I observed some very strong correlations (0.9+) between the ratio variables I created and their components (e.g. the chloride:sulfate ratio has a 0.90 correlation with the chloride level). While some correlation is obviously expected, since the derived variable contains the component variable, a correlation at this level is suggestive that there is a link of some sort between the components themselves, and that the ratios therefore might have statistical significance.</p>
+</li>
+<li>
+<p>The strongest correlation observed amongst variables that do not inovolve derivatives of themselves is the 0.87 observed between the sugar:alcohol ratio and density.</p>
+</li>
+</ul>
+<p>Let's now take a closer look at some of the interesting bivariate pairs:</p>
+<p>####1. Density and the Sugar:Alcohol Ratio</p>
+<pre lang="{r"><code>
+ggplot(aes(x=sugar_to_alcohol, y=density), 
+       data = data_subset) +
+  geom_point(alpha = 1/8,size=0.5) +
+  geom_smooth(method='lm',color = 'blue',linetype=2) +
+  xlim(0,quantile(data_subset$sugar_to_alcohol,0.99)) +
+  ylim(0.985,quantile(data_subset$density,0.99))
+
+</code></pre>
+<p>As can be seen from the graph, a linear approximation appears to do a reasonable job in describing the relationship between density and the sugar:alcohol ratio. This was the variable pair that exhibited the highest correlation coefficient (0.87) amongst the variables being considered here. As the ratio increases, so does density. If one knew that a certain wine had a sugar to alcohol ratio of 1.5, for example, one could likely make some reasonable predictions about what the density of that particular wine would be (e.g. 0.995 to 1.000, with a relatively high degree of confidence)</p>
+<p>####2. Density and Alcohol Content:</p>
+<p>Density was also observed to have a strong inverse correlation with the alcohol content (-0.78). Let's consider a graph of these two variables:</p>
+<pre lang="{r"><code>
+ggplot(aes(x=alcohol, y=density), 
+       data = data_subset) +
+  geom_point(alpha = 1/8,size=0.5) +
+  geom_smooth(method='lm',color = 'blue',linetype=2) +
+  xlim(8,quantile(data_subset$alcohol,0.99)) +
+  ylim(0.985,quantile(data_subset$density,0.99))
+
+</code></pre>
+<p>This inverse relationship is apparent from the graph, although at any given alcohol level, there is a fair amount of variability in the density value.</p>
+<p>####3. Total Sulfur Dioxide and Alcohol Level:</p>
+<pre lang="{r"><code>
+ggplot(aes(x=alcohol, y=total.sulfur.dioxide), 
+       data = data_subset) +
+  geom_point(alpha = 1/2,size=0.5) +
+  geom_smooth(method='lm',color = 'blue',linetype=2) +
+  xlim(min(data_subset$alcohol),quantile(data_subset$alcohol,0.99)) +
+  ylim(min(data_subset$total.sulfur.dioxide),
+       quantile(data_subset$total.sulfur.dioxide,0.99))
+
+</code></pre>
+<p>From this graph, one can see the negative correlation between the two variables, but there is so much variance that the relationship is unlikely to carry much predictive value. For example, if one knew the alcohol percent of a given wine was 12%, one would not be able to say with much certainty as to what the total sulfur dioxide level is likely to be, given how dispersed the points are. It looks just as likely to be 75 as 175, at a 12% alcohol level. So this bivariate combination is unlikely to carry much predictive value.</p>
+<p>Next, lets consider the relationship between the quality measurement and various parameters.</p>
+<p>####4a. Quality and the Chloride:Sulphate Ratio</p>
+<pre lang="{r"><code>
+ggplot(aes(x=quality.cat, y=chloride_to_sulphate), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha = 0.5,outlier.color = 'red',outlier.size = 0.75) +
+  ylim(quantile(data_subset$chloride_to_sulphate,0.01),
+       quantile(data_subset$chloride_to_sulphate,0.99))
+
+</code></pre>
+<p>It appears that in general, higher quality wines have lower chloride:sulphate ratios, as exhibited by the decreasing median values as the quality category increases.</p>
+<p>####4b. Quality and Volatile Acidity</p>
+<pre lang="{r"><code>
+ggplot(aes(x=quality.cat, y=volatile.acidity), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'green',outlier.size = 0.75) +
+  ylim(quantile(data_subset$volatile.acidity,0.01),
+       quantile(data_subset$volatile.acidity,0.99))
+
+</code></pre>
+<p>There does not appear to be any particularly promising trend between the volatile acidity level and quality, since the median volatile acidity rises and falls with changes in the quality category, with no apparent trend.</p>
+<p>####4c. Quality and the Free:Total Sulfur Dioxide Ratio</p>
+<pre lang="{r"><code>
+ggplot(aes(x=quality.cat, y=free_to_total_sulfure.dioxide), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha=0.5,outlier.color='purple',outlier.size = 0.75)  +
+  ylim(quantile(data_subset$free_to_total_sulfure.dioxide,0.01),
+       quantile(data_subset$free_to_total_sulfure.dioxide,0.99))
+
+</code></pre>
+<p>It appears that in general, higher quality wines have higher free:total sulfur dioxide ratios, since the median values appear to consistently increase as quality increases.</p>
+<p>####4d. Quality and Chloride Level</p>
+<pre lang="{r"><code>
+ggplot(aes(x=quality.cat, y=chlorides), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'blue',outlier.size = 0.75)  +
+  ylim(quantile(data_subset$chlorides,0.01),
+       quantile(data_subset$chlorides,0.99))
+
+</code></pre>
+<p>It appears that in general, higher quality wines have lower chloride levels, since the median value of chlorides drops with increasing quality.</p>
+<p>####4e. Quality and Density</p>
+<pre lang="{r"><code>
+ggplot(aes(x=quality.cat, y=density), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha=0.5,outlier.color='brown',outlier.size = 0.75) +
+  ylim(quantile(data_subset$density,0.01),quantile(data_subset$density,0.99))
+
+</code></pre>
+<p>The relationship between density and quality appears to be quite strong: higher quality wines (quality rating of 7 or higher) appear to be lower density compared to lower quality wines (quality rating of 5 or lower), based on the large differences in the median density observed between the quality extremes.</p>
+<p>####4f. Quality and Alcohol Content</p>
+<pre lang="{r"><code>
+ggplot(aes(x=quality.cat, y=alcohol), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha=0.5,outlier.color= 'orange',outlier.size = 0.75) +
+  ylim(quantile(data_subset$alcohol,0.01),quantile(data_subset$alcohol,0.99))
+
+</code></pre>
+<p>The relationship between alcohol content and quality appears potentially promising, particularly at the higher end of the quality scale, where there is a clear upwards trend in quality (from levels 5 through 9) as the median alcohol content increases.</p>
+<p>####4g. Quality and Sugar:Alcohol Ratio</p>
+<pre lang="{r"><code>
+ggplot(aes(x=quality.cat, y=sugar_to_alcohol), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'pink',outlier.size = 0.75)  +
+  ylim(quantile(data_subset$sugar_to_alcohol,0.01),
+       quantile(data_subset$sugar_to_alcohol,0.99))
+
+</code></pre>
+<p>It is hard to discern any clear trend between the sugar:alcohol ratio and a wine's quality, given that the median values move up and down as the quality improves.</p>
+<hr>
+<h2><a id="user-content-multivariate-plots-and-analysis-section" class="anchor" aria-hidden="true" href="#multivariate-plots-and-analysis-section"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multivariate Plots and Analysis Section</h2>
+<p>I will now consider the interaction of multiple variables. First, it was observed in the bivariate analysis that there is a relatively strong inverse relationship between density and the alcohol content (correlation coefficient of -0.78). The quality levels can be layered onto that graph as well:</p>
+<pre lang="{r"><code>
+ggplot(aes(x = alcohol, y = density,color=quality.cat), data = data_subset) +
+  geom_point(alpha = 1, size = 1, position = 'jitter') +
+  scale_color_brewer(type = 'seq',
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  xlim(quantile(data_subset$alcohol,0.01),quantile(data_subset$alcohol,0.99)) +
+  ylim(quantile(data_subset$density,0.01),quantile(data_subset$density,0.99)) +
+  ggtitle('Density by Alcohol Percent') + 
+     theme(plot.title = element_text(hjust = 0.5),panel.background = element_rect(fill = "gray"))
+
+</code></pre>
+<p>The quality points fall on the graph in a pattern that suggests the higher quality wines tend to have high alcohol content and also low density, as seen by the fact that the lower right portion of the graph is dominated by those wines in the 7-9 quality range, whereas the upper left portion is dominated by wines in the 3-5 quality range. Wines of quality 6 are dispered throughout.</p>
+<p>It was observed during the bivariate analysis that there was a strong correlation between the chloride level and the chloride:sulphate ratio. The quality levels can be layered onto that graph as well:</p>
+<pre lang="{r"><code>
+ggplot(aes(x = chlorides, y = chloride_to_sulphate,color=quality.cat), 
+       data = data_subset) +
+  geom_point(alpha = 0.75, size = 1, position = 'jitter') +
+  scale_color_brewer(type = 'seq',
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  xlim(quantile(data_subset$chlorides,0.01),
+       quantile(data_subset$chlorides,0.99)) +
+  ylim(quantile(data_subset$chloride_to_sulphate,0.01),
+       quantile(data_subset$chloride_to_sulphate,0.99)) +
+  ggtitle('Chloride:Sulphate Ratio by Chlorides')+ 
+     theme(plot.title = element_text(hjust = 0.5),panel.background = element_rect(fill = "gray"))
+
+</code></pre>
+<p>It appears there might be a tendency for high quality wines to be low chloride and low chloride:sulphate ratio. Let's zoom in on the lower left portion of the graph, which contains most of the data points, by truncating out the top 5% quantile for each variable:</p>
+<pre lang="{r"><code>
+ggplot(aes(x = chlorides, y = chloride_to_sulphate,color=quality.cat),
+       data = data_subset) + 
+  geom_point(alpha = 0.75, size = 1, position = 'jitter') +
+  scale_color_brewer(type = 'seq',
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  xlim(quantile(data_subset$chlorides,0.01),
+       quantile(data_subset$chlorides,0.95)) +
+  ylim(quantile(data_subset$chloride_to_sulphate,0.01),
+       quantile(data_subset$chloride_to_sulphate,0.95)) +
+  ggtitle('Chloride:Sulphate Ratio by Chlorides') + 
+     theme(plot.title = element_text(hjust = 0.5),panel.background = element_rect(fill = "gray"))
+
+</code></pre>
+<p>There does indeed appear to be a tendency for the higher quality wines to be lower in chlorides and chloride:sulphate ratio, given that the quality 7-9 wines have tended to cluster in the lower left portion of the graph, whereas the quality 3-5 wines are more in the upper right portion.</p>
+<p>Next, lets consider volatile acidity and the free:total sulfure dioxide ratio. During the bivariate analysis, this variable pair was observed to have one of the strongest correlations with quality (-0.19), so it seems worth considering in a multivariate format too, where quality is layered on the graph:</p>
+<pre lang="{r"><code>
+ggplot(aes(x = free_to_total_sulfure.dioxide, 
+           y = volatile.acidity,color=quality.cat), data = data_subset) +
+  geom_point(alpha = 0.75, size = 1, position = 'jitter') +
+  scale_color_brewer(type = 'seq',
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  xlim(quantile(data_subset$free_to_total_sulfure.dioxide,0.01),
+       quantile(data_subset$free_to_total_sulfure.dioxide,0.99)) +
+  ylim(quantile(data_subset$volatile.acidity,0.01),
+       quantile(data_subset$volatile.acidity,0.99)) +
+  ggtitle('Volatile Acidity by Free:Total Sulfure Ratio') + 
+     theme(plot.title = element_text(hjust = 0.5),panel.background = element_rect(fill = "gray"))
+
+</code></pre>
+<p>When we do so, there is no strong pattern regarding where the higher versus lower quality wines fall on the graph. The quality points are dispersed throughout, even though there might be some weak relationships in terms of where they tend to fall.</p>
+<p>Now lets look at the bivariate pair that exhibited the highest correlation coefficient, namely density and the sugar:alcohol ratio, which had a correlation coefficient of 0.87. To deepen the insight into these two variables and how they might impact wine quality, lets layer quality onto the graph:</p>
+<pre lang="{r"><code>
+ggplot(aes(x=sugar_to_alcohol, y=density,color = quality.cat), 
+       data = data_subset) +
+  geom_point(alpha = 1,size=0.5) +
+  scale_color_brewer(type = 'seq', palette = 2,
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  geom_smooth(method='lm',color = 'blue',linetype=2) +
+  xlim(0,quantile(data_subset$sugar_to_alcohol,0.99)) +
+  ylim(0.985,quantile(data_subset$density,0.99)) + 
+     theme(panel.background = element_rect(fill = "gray"))
+
+</code></pre>
+<p>A very interesting graph results, where there appears to be a strong tendency for the higher quality wines to cluster below the trendline whereas the lower quality wines tend to cluster above the trendline. In other words, for a given sugar:alcohol ratio, higher quality wines tend to be less dense, and above a certain sugar:alcohol ratio (approximately 1.5), there appear to be very few good quality wines.</p>
+<h4><a id="user-content-one-final-data-transformation" class="anchor" aria-hidden="true" href="#one-final-data-transformation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>One Final Data Transformation</h4>
+<p>It was observed at the very beginning of the analysis that one drawback of this data set is the relatively small number of samples for wines at the extreme ends of the quality spectrum. For example, of the nearly 5,000 wines in the dataset, there were zero wines of qualities 0,1,2 or 10. There were only 20 wines of quality 3 and only 5 wines of quality 9. Given the tiny number of samples on the extremes of the quality spectrum, it is possible that the dataset is being partitioned too finely. This seems particularly possible given that 'quality' is ultimately an expert's judgement call rather than an easy-to-measure number, so one might expect a legitimate quality level 7 wine to be tagged as a 6 or an 8, depending on which expert makes the judgement.</p>
+<p>To address this, I would like to consider how things might look if the quality categories are more 'coarse' and hence each category has many more samples. To do so, lets consider any wine with a 3-5 rating as 'bad', a wine with a 6 rating as 'ok' and a wine with a 7-9 rating as 'good'. When the data is split along these lines, one obtains the following sample count per category:</p>
+<pre lang="{r"><code>
+# create a function for bucketing the data into three new quality categories:
+
+mytrans &lt;- function(x) {
+  if(x &lt; 6){
+    'bad'
+  }
+  else if(x &lt; 7){
+    'ok'
+  }
+  else 'good'
+}
+
+# apply the function to create a new categorical variable, 'good_bad':
+
+data_subset$good_bad &lt;- ordered(
+  sapply(data_subset$quality,mytrans),levels=c('bad','ok','good'))
+
+summary(data_subset$good_bad)
+
+</code></pre>
+<p>Thus, after completing this transformation, each of the quality buckets has a significant number of data points (&gt;1,000 per category), which might improve the ability to draw conclusions regarding trends in the data. Now lets consider whether there are trends between the variables of interest and these new quality categories:</p>
+<pre lang="{r"><code>
+# graph the variables of interest vs the 'bad','ok','good' quality categories:
+
+p20 &lt;- ggplot(aes(x=good_bad, y=chloride_to_sulphate), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha = 0.5,outlier.color = 'red',outlier.size = 0.75) +
+  ylim(quantile(data_subset$chloride_to_sulphate,0.01),
+       quantile(data_subset$chloride_to_sulphate,0.99))
+
+p21 &lt;- ggplot(aes(x=good_bad, y=volatile.acidity), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'green',outlier.size = 0.75) +
+  ylim(quantile(data_subset$volatile.acidity,0.01),
+       quantile(data_subset$volatile.acidity,0.99))
+
+p22 &lt;- ggplot(aes(x=good_bad, y=free_to_total_sulfure.dioxide), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha=0.5,outlier.color='purple',outlier.size = 0.75)  +
+  ylim(quantile(data_subset$free_to_total_sulfure.dioxide,0.01),
+       quantile(data_subset$free_to_total_sulfure.dioxide,0.99))
+
+p23 &lt;- ggplot(aes(x=good_bad, y=chlorides), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'blue',outlier.size = 0.75)  +
+  ylim(quantile(data_subset$chlorides,0.01),
+       quantile(data_subset$chlorides,0.99))
+
+p24 &lt;- ggplot(aes(x=good_bad, y=density), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha = 0.5,outlier.color= 'brown',outlier.size= 0.75) +
+  ylim(quantile(data_subset$density,0.01),quantile(data_subset$density,0.99))
+
+p25 &lt;- ggplot(aes(x=good_bad, y=alcohol), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'orange',outlier.size= 0.75) +
+  ylim(quantile(data_subset$alcohol,0.01),quantile(data_subset$alcohol,0.99))
+
+p26 &lt;- ggplot(aes(x=good_bad, y=sugar_to_alcohol), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'orange',outlier.size= 0.75) +
+  ylim(quantile(data_subset$sugar_to_alcohol,0.01),
+       quantile(data_subset$sugar_to_alcohol,0.99))
+
+grid.arrange(p20,p21,p22,p23,p24,p25,p26, ncol=3)
+
+</code></pre>
+<p>With this coarser partioning of quality, the trends become more consistent and we can draw some conclusions about the impact of the various chemical properties on quality:</p>
+<p>The following variables correlate inversely with quality (i.e. quality decreases as these variables increase in value):</p>
+<ul>
+<li>chloride:sulphate ratio</li>
+<li>volatile acidity</li>
+<li>chlorides</li>
+<li>density</li>
+<li>sugar:alcohol ratio</li>
+</ul>
+<p>The following variables correlate with quality (i.e. quality increases as these variables increase in value):</p>
+<ul>
+<li>alcohol content</li>
+<li>free:total sulphur dioxide ratio</li>
+</ul>
+<p>Let's now overlay the new quality categories on the density vs. alcohol content graph:</p>
+<pre lang="{r"><code>
+ggplot(aes(x=alcohol, y=density,color = good_bad), 
+       data = data_subset) +
+  geom_point(alpha = 1,size=0.5) +
+  scale_color_brewer(type = 'seq', palette = 2,
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  geom_smooth(method='lm',color = 'blue',linetype=2) +
+  xlim(quantile(data_subset$alcohol,0.01),quantile(data_subset$alcohol,0.99)) +
+  ylim(0.985,quantile(data_subset$density,0.99)) + 
+     theme(panel.background = element_rect(fill = "gray"))
+
+</code></pre>
+<p>The categories split quite well: good wines tend to have higher alcohol content and lower density levels.</p>
+<p>Looking at density vs. sugar:alcohol ratio in the context of these new quality categories, we observe the following:</p>
+<pre lang="{r"><code>
+ggplot(aes(x=sugar_to_alcohol, y=density,color = good_bad), 
+       data = data_subset) +
+  geom_point(alpha = 1,size=0.5) +
+  scale_color_brewer(type = 'seq', palette = 2,
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  geom_smooth(method='lm',color = 'blue',linetype=2) +
+  xlim(quantile(data_subset$sugar_to_alcohol,0.01),
+       quantile(data_subset$sugar_to_alcohol,0.99)) +
+  ylim(0.985,quantile(data_subset$density,0.99)) + 
+     theme(panel.background = element_rect(fill = "gray"))
+
+</code></pre>
+<p>Here the split appears even stronger. The good wines cluster at lower density and lower sugar:alcohol levels. Further, at a given sugar:alcohol ratio, the good quality wines tend to have lower densities than the bad quality wines.</p>
+<h3><a id="user-content-predictive-models" class="anchor" aria-hidden="true" href="#predictive-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Predictive Models</h3>
+<p>Given the correlations and trends observed between wine quality and the measurable properties of a given wine, the next task was to build a model for predicting the quality level of any given wine. One could imagine such a model being very useful for wine manufacturers, in terms of monitoring the properties of the wines being produced by any given vineyard at any point in time, in an attempt to improve the likely quality outcome.</p>
+<p>Since the variable being predicted by the model is ordinal, the appropriate modeling technique is an ordered logistic regression model. The polr command from the MASS package serves this purpose and the results of the model are shown below, for the case where the quality categories 3-9 are the desired prediction outcome:</p>
+<pre lang="{r"><code>
+## fit ordered logit model and store results 'm'
+m &lt;- polr(quality.cat ~ alcohol + density + chlorides + 
+            free_to_total_sulfure.dioxide + volatile.acidity + 
+            chloride_to_sulphate + sugar_to_alcohol, data = data_subset, 
+          Hess=TRUE)
+
+## view a summary of the model
+summary(m)
+
+# Confidence intervals on the model parameters:
+print("Confidence Levels:")
+confint.default(m)
+
+</code></pre>
+<p>A model can also be built for the scenario where the 'transformed' quality categories of 'bad', 'ok', and 'good' are the desired prediction outcome, and those modeling results are as follows:</p>
+<pre lang="{r"><code>
+## fit ordered logit model and store results 'm'
+m &lt;- polr(good_bad ~ alcohol + density + chlorides + 
+            free_to_total_sulfure.dioxide + volatile.acidity + 
+            chloride_to_sulphate + sugar_to_alcohol, data = data_subset, 
+          Hess=TRUE)
+
+## view a summary of the model
+summary(m)
+
+# Confidence intervals on the model parameters:
+
+print("Confidence Levels:")
+confint.default(m)
+
+</code></pre>
+<p>Both models appear to fit the data well, with the estimated value to standard error ratio (i.e. the t-value) exceeding 2.9 for all parameters. The parameter estimate for alcohol content and density had the highest t-values for both models, which is not surprising given the trends observed in the multivariate graphs, where these two properties were key predictors of a given wine's quality score.</p>
+<p>Both models have limitiations however. First, they are only valid for the quality range exhibited in the dataset. Since the dataset only contained wines in the 3-9 quality range, these models would be unreliable at identifying wines outside of this range. Second, the models are only valid for the particular wine under consideration here (i.e. Portuguese "Vinho Verde" wines). A new model would likely be needed for each wine variety, or at the very least, this model would need to be validated against a new set of data before one could make any claims about its applicability beyond this particular dataset and wine variety.</p>
+<hr>
+<h2><a id="user-content-final-plots-and-summary" class="anchor" aria-hidden="true" href="#final-plots-and-summary"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Final Plots and Summary</h2>
+<p>In this section, three particularly interesting graphs that help summarize the key findings from the EDA are presented.</p>
+<h3><a id="user-content-plot-one" class="anchor" aria-hidden="true" href="#plot-one"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Plot One</h3>
+<pre lang="{r"><code>
+ggplot(aes(x = alcohol, y = density,color=quality.cat), data = data_subset) +
+  geom_point(alpha = 1, size = 1, position = 'jitter') +
+  scale_color_brewer(type = 'seq', palette = 2,
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  xlim(quantile(data_subset$alcohol,0.01),quantile(data_subset$alcohol,0.99)) +
+  ylim(quantile(data_subset$density,0.01),quantile(data_subset$density,0.99)) +
+  geom_vline(xintercept = 11,linetype=2) +
+  geom_hline(yintercept = 0.994,linetype=2) +
+  ggtitle('Wine Quality by Alcohol Content and Density') + 
+     theme(plot.title = element_text(hjust = 0.5,size = 16, face = "bold"),
+           panel.background = element_rect(fill = "gray")) +
+  xlab("alcohol content (%)") +
+  ylab("density (g / cm^3)")
+
+</code></pre>
+<h3><a id="user-content-description-plot-one" class="anchor" aria-hidden="true" href="#description-plot-one"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Description: Plot One</h3>
+<p>This plot demonstrates that in general, the high quality wines (quality 7-9) tend to have high alcohol content and low density, as shown by the preponderance of green shaded points in the lower right quadrant of the graph. Conversely, the poor quality wines (quality 3-5) tend to have low alcohol content and high density, dominating the two left side quadrants.</p>
+<h3><a id="user-content-plot-two" class="anchor" aria-hidden="true" href="#plot-two"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Plot Two</h3>
+<pre lang="{r"><code>
+# graph three variables of interest vs 'bad','ok','good' quality categories:
+
+p24 &lt;- ggplot(aes(x=good_bad, y=density), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha = 0.5,outlier.color ='brown',outlier.size= 0.75) +
+  ylim(quantile(data_subset$density,0.1),quantile(data_subset$density,0.9)) +
+  theme(axis.title.x=element_blank()) +
+  ylab("density (g / cm^3)")
+
+p25 &lt;- ggplot(aes(x=good_bad, y=alcohol), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'orange',outlier.size= 0.75) +
+  ylim(quantile(data_subset$alcohol,0.1),quantile(data_subset$alcohol,0.9)) +
+  theme(axis.title.x=element_blank()) +
+  ylab("alcohol content (%)")
+
+p26 &lt;- ggplot(aes(x=good_bad, y=sugar_to_alcohol), 
+       data = data_subset) +
+  geom_boxplot(outlier.alpha= 0.5,outlier.color= 'orange',outlier.size= 0.75) +
+  ylim(quantile(data_subset$sugar_to_alcohol,0.1),
+       quantile(data_subset$sugar_to_alcohol,0.9))  +
+  xlab("Wine Quality") +
+  ylab("sugar:alcohol ratio")
+
+grid.arrange(p24,p25,p26, ncol=1, top=textGrob("Chemical Properties with a Large Impact on Quality",gp=gpar(fontsize=16,face='bold')))
+
+</code></pre>
+<h3><a id="user-content-description-plot-two" class="anchor" aria-hidden="true" href="#description-plot-two"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Description: Plot Two</h3>
+<p>This plot demonstrates that once wine quality is transformed into more coarse bins (i.e. 'bad','ok' and 'good' instead of integers 3-9) then consistent trends emerge in the impact of various chemical properties on wine quality. Specifically, as the density and the sugar:alcohol ratio decrease, the wine quality increases and as the percent alcohol increases the wine quality increases.</p>
+<h3><a id="user-content-plot-three" class="anchor" aria-hidden="true" href="#plot-three"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Plot Three</h3>
+<pre lang="{r"><code>
+ggplot(aes(x=sugar_to_alcohol, y=density,color = good_bad), 
+       data = data_subset) +
+  geom_point(alpha = 1,size=0.5) +
+  scale_color_brewer(type = 'seq', palette = 2,
+    guide = guide_legend(title = 'Quality', reverse = F,
+    override.aes = list(alpha = 1, size = 2))) +
+  geom_smooth(method='lm',color = 'black',linetype=2) +
+  xlim(quantile(data_subset$sugar_to_alcohol,0.01),
+       quantile(data_subset$sugar_to_alcohol,0.99)) +
+  ylim(0.985,quantile(data_subset$density,0.99)) +
+  ggtitle('Wine Quality by Sugar:Alcohol Ratio and Density') + 
+     theme(plot.title = element_text(hjust = 0.5,size = 16, face = "bold"),
+           panel.background = element_rect(fill = "gray")) +
+  xlab("sugar:alcohol") +
+  ylab("density (g / cm^3)")
+
+</code></pre>
+<h3><a id="user-content-description-plot-three" class="anchor" aria-hidden="true" href="#description-plot-three"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Description: Plot Three</h3>
+<p>This plot summarizes the key findings from the EDA exercise: at a given sugar:alcohol level, high quality wines tend to have lower densities than low quality wines. Further, beyond a certain sugar:alcohol ratio (approximately 1.0 - 1.5) there is a preponderance of bad quality wines compared to good quality wines.</p>
+<hr>
+<h2><a id="user-content-reflection" class="anchor" aria-hidden="true" href="#reflection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reflection</h2>
+<p>One major struggle in this EDA was getting my head around all the variables and their impact on quality. It wasn't just the large number of variables that was problematic, but the fact that many of these variables are likely related. For example, if one assumes that wine fermentation involves the breaking down of 'sugar' to create alcohol, then the residual sugar level in the wine and the percent of alcohol must impact each other. Similarly, my basic knowledge of chemistry suggests that many of these variables could be related through chemical reactions in many possible combinations. So, it felt a little bit like having a machine with many handles, where pulling one handle would result in a different handle also moving. To move forward, I elected to focus on those variables that had a correlation with quality above a certain threshold.</p>
+<p>Despite this struggle, the sheer act of playing with the data in multiple ways and combinations began to yield insights into the relationships between the variables and this felt like a success to me. I was also satisfied to be able to generate a regression model that intuitively made sense to me (i.e. the directional impact of various variables on quality were consistent with the EDA) and also had sensible parameters, with relatively high t-values.</p>
+<p>I think the most interesting area for future exploration with this dataset would be to utilize machine learning techniques to see if a predictive model can be built that is superior to the regression model built here. This dataset looks ripe for machine learning, given the potentially complex interplay between the various chemical properties being measured. It would be helpful to have a bigger dataset if one were to apply machine learning and also a much larger number of datapoints from the extremes of the quality spectrum (i.e. many more quality 0-3 and quality 9-10 wines).</p>
+<p>A second area of exploration would be to test whether the trends observed here hold true for other wine types. For example, a similar dataset exists for red wines, so analysing this red wine set might be a great option for taking this analysis to the next level.</p>
+</article>
+  </div>
+
+  </div>
+
+  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+  <div id="jump-to-line" style="display:none">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+      <button type="submit" class="btn">Go</button>
+</form>  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.23373s from unicorn-256432944-whm2g">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha512-EST2K47MuXo8oWVqCyU58ZnnvZTPcd7fM//26jWjgrjqTGi2yJp6mZNYuwYk+K6d2r9bt7qT4uYCz2VMXS0j/Q==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-27d1acefde8235024615b1326306ab81.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-PJQJ4tcJGzNdweWUf1gj8G3Qka9PD/rMqrsj6doQfz2T+kNCXpOD3HKoPilGBbkizc28sx+zEytm4qLgIWSxdw==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-8a2aee799e9b858e966f314cf55893dc.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

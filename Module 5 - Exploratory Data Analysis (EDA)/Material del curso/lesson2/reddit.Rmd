@@ -1,0 +1,38 @@
+```{r}
+setwd('C:/Users/Serg/Documents/Aprendiendo/Data Analysis/Module 5 - Exploratory Data Analysis (EDA)/Material del curso/lesson2')
+reddit <- read.csv('reddit.csv')
+```
+
+```{r}
+table(reddit$employment.status)
+```
+
+```{r}
+summary(reddit)
+```
+
+```{r}
+?factor
+```
+
+```{r}
+levels(reddit$age.range)
+```
+```{r}
+library(ggplot2)
+```
+
+# Setting levels of ordered factors solution
+```{r}
+reddit$age.range <- ordered(reddit$age.range, levels = c("Under 18", "18-24", "25-34", "35-44", "45-54", "55-64", "65 or Above") )
+qplot(data = reddit, x = age.range)
+
+```
+# Alternative solution
+
+```{r}
+reddit$age.range <- factor(reddit$age.range, levels = c("Under 18", "18-24", "25-34", "35-44", "45-54", "55-64", "65 or Above", ordered = T))
+                           
+qplot(data = reddit, x =  age.range)
+```
+
